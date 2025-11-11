@@ -1,0 +1,21 @@
+.interior{
+  padding: 0 20rem 0 20rem;
+  background-color: #f9fafb;
+
+
+}
+
+/* Estilo para tablet (pantallas ≥ 768px) */
+@media (max-width: 768px) {
+  .interior{
+  display: none;
+
+}
+}
+
+/* Estilo para desktop (pantallas ≥ 1024px) */
+@media (max-width: 1024px) {
+  .interior{
+  display: none;
+}
+}
