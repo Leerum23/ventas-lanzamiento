@@ -29,40 +29,57 @@ function Home() {
                
                
                 <Componente1 />
-                
+                <Fade>
                 <Componente2 />
+                </Fade>
             
+                <Fade>
                 <Componente3 />
+                </Fade>
 
                 <Componente4 />
 
+                <Fade>
                 <Componente5 />
+                </Fade>
 
+                <Fade>
+                           
                 <Componente6 />
+                </Fade>
 
                 <Componente7 />
 
                 <TestimonialsCarousel/>
 
+                <Fade>
+               
                 <Componente9/>
+                 </Fade>
 
                 <div className='interior'>
 
+                <Fade>
                 <Componente10 />
+                </Fade>
 
-                <Componente11/>
+                <Fade>
+                <Componente11 />
+                </Fade>
 
 
                 <Componente12/>
                 </div>
-
+                
+                <Fade>
                 <FaqSection/>
-
-                <FinalReflection/>
+                </Fade>
+                
 
             <Fade>
-               
+            <FinalReflection/>
             </Fade>
+
             <Footer />
         </div>
     )
