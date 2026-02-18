@@ -18,6 +18,8 @@ import FaqSection from '../../components/Componente13.jsx';
 import FinalReflection from '../../components/Componente14.jsx';
 import TestimonialsCarousel from '../../components/Componente8.jsx';
 import Footer from '../../components/Footer.jsx';
+import Testimonials from '../../components/Testimonials/Testimonials.jsx';
+import Componente11_2 from '../../components/Componente11_2.jsx';
 
 
 function Home() {
@@ -33,9 +35,9 @@ function Home() {
                 <Componente2 />
                 </Fade>
             
-                <Fade>
+                {/* <Fade>
                 <Componente3 />
-                </Fade>
+                </Fade> */}
 
                 <Componente4 />
 
@@ -43,14 +45,16 @@ function Home() {
                 <Componente5 />
                 </Fade>
 
+                <Testimonials/>
+
                 <Fade>
                            
                 <Componente6 />
                 </Fade>
 
+                <TestimonialsCarousel/>
                 <Componente7 />
 
-                <TestimonialsCarousel/>
 
                 <Fade>
                
@@ -64,7 +68,8 @@ function Home() {
                 </Fade>
 
                 <Fade>
-                <Componente11 />
+                {/* <Componente11 /> */}
+                <Componente11_2/>
                 </Fade>
 
 

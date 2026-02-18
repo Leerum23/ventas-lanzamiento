@@ -3,43 +3,43 @@ import { FiInfo } from "react-icons/fi";
 
 const faqs = [
   {
-    question: '“No sé nada de inteligencia artificial”',
+    question: '“No sé nada de IA”',
     answer:
-      'Perfecto. Este workshop está diseñado para principiantes absolutos. Los agentes IA ya están entrenados. Tú solo sigues instrucciones simples. Si sabes usar WhatsApp, puedes usar IA.',
+      'Solo tienes que seguir instrucciones, nada más.',
   },
   {
-    question: '“¿Y si creo algo y nadie lo compra?”',
+    question: '“¿Y si nadie me compra?”',
     answer:
-      'Aprenderás cómo validar ideas rápidamente antes de invertir tiempo o dinero.',
+      'Imposible, es un sistema validado que está funcionando.',
   },
   {
-    question: '“No tengo tiempo para otro curso más”',
+    question: '“No tengo tiempo”',
     answer:
-      'El contenido está optimizado para que avances en sesiones cortas y prácticas.',
+      'Solo necesitas dos días y algo de tiempo libre para cambiar tu vida.',
   },
   {
-    question: '“¿Funciona para empleados sin experiencia?”',
+    question: '“¿Funciona para quienes están trabajando?”',
     answer:
-      'Sí, el workshop parte desde cero y no requiere conocimientos previos.',
+      'Obvio, solo tiene que dedicar 2 horas diarias.',
   },
   {
-    question: '“Ese precio… ¿no será muy básico?”',
+    question: '“Por este precio… ¿no será muy básico?”',
     answer:
-      'El valor está en la aplicación práctica, no en la duración. Te llevas herramientas reales.',
+      'No, este es el contenido que necesitas.',
   },
   {
     question: '“¿El workshop será en español?”',
     answer: 'Sí, todo el contenido está completamente en español.',
   },
   {
-    question: '“¿Necesito invertir en herramientas caras?”',
+    question: '“¿Necesito invertir mucho dinero?”',
     answer:
-      'No. Usarás herramientas gratuitas o con versiones free perfectamente funcionales.',
+      'No. Casi todas las herramientas que usamos son en versión gratuita.',
   },
   {
     question: '“¿Y si no logro aplicar lo que enseñas?”',
     answer:
-      'El acompañamiento está diseñado para que avances paso a paso y puedas aplicarlo enseguida.',
+      'Tienes 7 días de garantía.',
   },
 ];
 
@@ -53,8 +53,8 @@ export default function FaqSection() {
   return (
     <section className="bg-gray-50 py-10 px-4">
          <div className="max-w-2xl mx-auto">
-      <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
-        TUS PRINCIPALES DUDAS RESUELTAS:
+      <h2 className="text-2xl md:text-2xl font-bold text-center mb-8">
+        TUS PRINCIPALES DUDAS:
       </h2>
 
       <div className="space-y-3">

@@ -1,6 +1,6 @@
 // src/components/Garantia.js
 import React from "react";
-import imagen from "../assets/garantia.png"
+import imagen from "../assets/garantia3.png"
 
 export default function Componente12() {
   return (
@@ -9,17 +9,15 @@ export default function Componente12() {
         {/* Texto */}
         <div className="md:w-1/2 text-gray-800 text-center md:text-left">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4 leading-tight">
-            GARANTÍA INCONDICIONAL <br />
-            DE <span className="text-blue-600">30 DÍAS</span>
+            GARANTÍA  <br />
+            DE <span className="text-blue-600">7 DÍAS</span>
           </h2>
 
           <p className="text-gray-700 mb-4">
-            Participa del workshop completo. Aplica todo lo que enseño. Si
-            después de 30 días no sientes que valió cada centavo, me escribes y
-            te devuelvo tu dinero completo.
+            Si no te gustó el workshop, terminás y pedis rembolso, no te hago ninguna pregunta.
           </p>
 
-          <p className="text-gray-700 mb-4">
+          {/* <p className="text-gray-700 mb-4">
             Sin preguntas. Sin complicaciones.
           </p>
 
@@ -30,14 +28,14 @@ export default function Componente12() {
 
           <p className="font-semibold text-gray-900 text-lg">
             El riesgo es mío, no tuyo.
-          </p>
+          </p> */}
         </div>
 
         {/* Imagen de sello */}
         <div className="md:w-1/2 flex justify-center">
           <img
             src={imagen}
-            alt="Garantía 30 días"
+            alt="Garantía 7 días"
             className="max-w-[250px] md:max-w-[300px] object-contain drop-shadow-lg"
           />
         </div>

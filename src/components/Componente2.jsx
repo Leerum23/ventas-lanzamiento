@@ -1,33 +1,35 @@
 import React, { useState, useEffect } from "react";
 
 const cards = [
-   {
-    id: 1,
-    titulo: "EMPLEADO ESTANCADO",
-    descripcion:
-      'Trabajas 8+ horas al día, ganas "razonablemente bien" pero vives al límite. Sientes que los años pasan y sigues en el mismo lugar.',
-    icono: "💼",
-    imagen: "https://img.freepik.com/foto-gratis/hombre-deprimido-tiro-medio-mesa_23-2148773950.jpg?t=st=1762735192~exp=1762738792~hmac=fef500ab16a197ec026fd8f05a64d45b5d8cd695fa86b3b299aa35fe78eda713&w=1060",
+  {
+    titulo: "EMPRENDEDORES ",
+    descripcion: "Personas de espíritu emprendedor con o sin conocimiento.",
+    icono: "💻",
+    // imagen: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
+    imagen:"https://img.freepik.com/foto-gratis/imagen-encantadora-joven-artista-carismatica-camisa-color-caqui-sonriendo-ampliamente-sintiendose-feliz-su-trabajo-proceso-creacion-sentada-taller-rodeada-accesorios-pintura_273609-893.jpg?t=st=1771015437~exp=1771019037~hmac=2d78a7fc9007972e82e6735ed3f842da343653bae9793da780a130fe326341c3&w=1060"
   },
   {
     id: 2,
-    titulo: "FRUSTRADO DIGITAL",
+    titulo: "PERSONAS CON CURSOS INEFICIENTES",
     descripcion:
-      'Ya intentaste cursos, tutoriales de YouTube, métodos "infalibles"... pero solo acumulaste información sin resultados concretos.',
+    'Han probado cursos y aún no han tenido resultados.',
     icono: "⌛️",
-    imagen: "https://img.freepik.com/foto-gratis/alto-angulo-mujer-que-trabaja-computadora-portatil_23-2148481563.jpg?t=st=1762734942~exp=1762738542~hmac=71fabcf5c5c1d5b6cef1f62de5a063b47c5bd5ee6fc3217bb311fdeb8fa52ac7&w=1060",
-  },
+    imagen:"https://img.freepik.com/fotos-premium/estudie-pensamiento-educacion-hombre-computadora-portatil-aprendizaje-electronico-escuela-universidad-remotas-enfoque-solucion-tecnologia-lectura-estudiante-casa-examen-conferencia-linea-universidad_590464-158731.jpg?ga=GA1.1.1255873241.1769904264&semt=ais_hybrid&w=740&q=80",
+  //   imagen: "https://img.freepik.com/fotos-premium/joven-enfocado-usa-auriculares-estudiar-linea_135932-10925.jpg?ga=GA1.1.1255873241.1769904264&semt=ais_hybrid&w=740&q=80",
+   },
   {
-    titulo: "CURIOSO DE LA IA",
-    descripcion: "Ves que otros prosperan usando inteligencia artificial, pero a ti te parece complicado, técnico, \"para expertos\".",
-    icono: "💻",
-    imagen: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80"
-  },
+   id: 1,
+   titulo: "ESTANCADOS",
+   descripcion:
+     'Para quienes están estancados profesionalmente y no logran avanzar.',
+   icono: "💼",
+   imagen: "https://img.freepik.com/fotos-premium/empresaria-india-madura-tomando-notas-proyecto-planificacion-trabajando-oficina-moderna_695242-2245.jpg?ga=GA1.1.1255873241.1769904264&semt=ais_hybrid&w=740&q=80",
+ },
   {
-    titulo: "BUSCADOR DE LIBERTAD",
-    descripcion: "Quieres una fuente de ingresos que no dependa de jefes, horarios o ubicación geográfica, pero no sabes por dónde empezar.",
+    titulo: "PERSONAS QUE BUSCAN INGRESOS EXTRA",
+    descripcion: "Si deseas libertad financiera, pero no sabes por dónde empezar.",
     icono: "💵 ",
-    imagen: "https://img.freepik.com/foto-gratis/hombre-que-usa-smartphone-barandillas_23-2147771379.jpg?t=st=1762734802~exp=1762738402~hmac=832af90a14dde85276f208a4536947d78d261ead5bd6c8a9912175ce4afbe0d2&w=1060"
+    imagen: "https://img.freepik.com/fotos-premium/mujer-cafe-al-aire-libre-frente-al-coliseo-roma-italia_506452-15268.jpg?w=740"
   }
 ];
 
@@ -37,7 +39,7 @@ export default function Componente2() {
     <section className="bg-gray-100 py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mb-12">
-          ¿<span className="text-blue-500">TE IDENTIFICAS</span> CON ALGUNA DE ESTAS SITUACIONES?
+          <span className="text-blue-500"></span> Esto es para:
         </h2>
 
         <div className="grid gap-8 md:grid-cols-2">
@@ -49,7 +51,7 @@ export default function Componente2() {
               <img
                 src={item.imagen}
                 alt={item.titulo}
-                className="w-full h-48 object-cover rounded-lg mb-5"
+                className="w-full h-48 object-cover object-top rounded-lg mb-5"
               />
               <h3 className="text-xl font-bold text-gray-900 flex items-center gap-2 mb-3">
                 <span className="text-2xl">{item.icono}</span> {item.titulo}

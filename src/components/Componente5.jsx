@@ -6,9 +6,9 @@ const Componente5 = () => {
   return (
     <section className="bg-gray-50 text-gray-800 py-16 px-6 md:px-20 text-center">
       {/* Título */}
-      <h2 className="text-xl md:text-2xl font-semibold mb-8 uppercase tracking-wide">
-        ¿Quién está detrás de este método?
-      </h2>
+      {/* <h2 className="text-xl md:text-2xl font-semibold mb-8 uppercase tracking-wide">
+        ¿Quién te acompañará en el proceso?
+      </h2> */}
 
       {/* Imágenes */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10 mb-10">
@@ -30,10 +30,10 @@ const Componente5 = () => {
       </div>
 
       {/* Nombre */}
-      <h3 className="text-2xl md:text-3xl font-bold mb-6">Juan Azu</h3>
+      <h3 className="text-2xl md:text-3xl font-bold mb-6">Soy Juan Azu</h3>
 
       {/* Métricas principales */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-8">
+      {/* <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-8">
         <div className="flex items-center gap-2 text-blue-600 font-medium">
           <span>💎</span>
           <span>+US$3.000.000 en ventas generadas</span>
@@ -42,45 +42,46 @@ const Componente5 = () => {
           <span>🎓</span>
           <span>+2.500 alumnos transformados</span>
         </div>
-      </div>
+      </div> */}
 
       {/* Descripción */}
-      <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg leading-relaxed mb-8">
+      {/* <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg leading-relaxed mb-8">
         Brasileño y especialista en ventas digitales y creador de productos que
         generaron más de{" "}
         <span className="font-semibold text-gray-900">
           US$3.000.000 en ventas online
         </span>
         .
+      </p> */}
+
+      <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg leading-relaxed mb-8">
+        Vengo desde los negocios físicos. Después de empujar y empujar me di cuenta que no lo pude sostener. Me encontré sin nada y ahí me armonicé con el universo. Con poco dinero y necesitando resultados casi inmediatos, empecé a emprender en los productos digitales. No te voy a mentir, pasé por muchos cursos y dediqué mucho tiempo.
       </p>
 
       <p className="text-gray-700 max-w-3xl mx-auto text-base md:text-lg leading-relaxed mb-8">
-        Durante los últimos 6 años, ha trabajado en el desarrollo, lanzamiento y
-        escalada de productos digitales en distintos nichos — desde
-        espiritualidad hasta inteligencia artificial — ayudando a emprendedores
-        a facturar desde cero hasta múltiples cinco cifras mensuales.
-      </p>
+       Hasta que al fin pude generar un método basado en lo que necesité: RESULTADOS RÁPIDOS, sin que sea complicado y que sea escalable. 
+       </p>
 
       {/* Métricas secundarias */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-10">
-        <div className="flex items-center gap-2 text-blue-600 font-medium">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-10 ">
+        <div className="flex items-center gap-2 text-blue-600 md:text-2xl ">
           <span>🚀</span>
-          <span>+500 productos digitales lanzados</span>
+          <span>Ya pasaron más de 700 alumnos</span>
         </div>
-        <div className="flex items-center gap-2 text-blue-600 font-medium">
+        {/* <div className="flex items-center gap-2 text-blue-600 font-medium">
           <span>⏳</span>
           <span>6 años perfeccionando la metodología</span>
-        </div>
+        </div> */}
       </div>
 
       {/* Enfoque */}
-      <p className="text-gray-800 font-medium max-w-2xl mx-auto">
+      {/* <p className="text-gray-800 font-medium max-w-2xl mx-auto">
         Mi enfoque no es enseñar teoría.{" "}
         <span className="font-bold">
           Es crear sistemas que funcionen para personas comunes, sin experiencia,
           que quieren resultados reales.
         </span>
-      </p>
+      </p> */}
     </section>
   );
 };

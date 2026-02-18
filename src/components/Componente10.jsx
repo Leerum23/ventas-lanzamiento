@@ -1,22 +1,24 @@
 // src/components/Bonos.js
 import React from "react";
 import { CheckCircle } from "lucide-react";
+import img from "../assets/Portada-libroA5.png";
+import img2 from "../assets/ebook2.png";
 
 export default function Componente10() {
   const bonos = [
     {
-      title: "WORKBOOK PRÁCTICO",
+      title: "EBOOK RESUMEN",
       oldPrice: "$97",
-      image: "https://cdn-icons-png.flaticon.com/512/942/942799.png",
+      image: img2,
       description:
-        "Recibirás un cuaderno de ejercicios prácticos con ejercicios y tareas para aplicar todo el contenido aprendido en el taller, para que no sea más contenido que solo te llene la cabeza de información. ¡AQUÍ LO APLICARÁS TODO!",
+        "Recibirás un resumen de lo visto en la clase",
     },
     {
-      title: "10 OFERTAS VÁLIDAS",
+      title: "LIBRO MENTE INQUEBRANTABLE",
       oldPrice: "$197",
-      image: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      image: img,
       description:
-        "Te daré una lista con 10 ofertas validadas para que no tengas que crear una desde cero. Tú elegirás una y yo te enseñaré a modelarla.",
+        "Acceso al resumen del libro que te ayuda a forjar hábitos exitosos.",
     },
   ];
 
@@ -24,8 +26,8 @@ export default function Componente10() {
     <section className="bg-blue-900 py-12 px-6 md:px-12">
       <div className="max-w-5xl mx-auto">
         {/* Título */}
-        <h2 className="text-center text-white text-2xl md:text-3xl font-bold uppercase mb-10">
-          Y además de todo eso, también recibirás bonos exclusivos:
+        <h2 className="text-center text-white text-2xl md:text-2xl font-bold uppercase mb-10">
+          Y además recibirás:
         </h2>
 
         {/* Contenedor de bonos */}
@@ -59,6 +61,14 @@ export default function Componente10() {
             </div>
           ))}
         </div>
+
+       <h3 className="text-center text-white text-2xl font-bold uppercase mt-10">
+        VALOR TOTAL:{" "}
+        <span className="line-through decoration-red-500">
+          USD $1.555
+        </span>
+      </h3>
+
       </div>
     </section>
   );

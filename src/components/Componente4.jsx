@@ -1,5 +1,5 @@
 import React from "react";
-import imagen from "../assets/opet.png"
+import imagen from "../assets/metodo2.png"
 
 const Componente4 = () => {
   return (
@@ -9,11 +9,10 @@ const Componente4 = () => {
         Te presento el:
       </h2>
       <h1 className="text-4xl md:text-5xl font-bold mb-4">
-        Método <span className="text-blue-500">O.P.E.T.™</span>
+         <span className="text-blue-500">Entrenamiento - Método - Sistema</span> 
       </h1>
       <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-        El único sistema que convierte ideas en productos digitales vendibles
-        usando IA en tiempo récord.
+        Consta de 5 partes
       </p>
 
       {/* Contenedor de fases */}
@@ -23,25 +22,20 @@ const Componente4 = () => {
           {/* Fase 1 */}
           <div className="text-left md:text-right">
             <h3 className="text-lg font-bold mb-2">
-              <span className="mr-2">🎯</span>FASE 1: OFERTA IRRESISTIBLE
+              <span className="mr-2">🎯</span>PARTE 1: Producto sencillo
             </h3>
             <p className="text-gray-600 text-sm md:text-base">
-              No necesitas una idea “brillante”. Necesitas una oferta que el
-              mercado quiera comprar. Te enseño a usar IA para identificar
-              necesidades reales y crear ofertas de alta conversión.
+              Hecho con IA, tendrás un producto en tiempo record para que tenga alta conversión.
             </p>
           </div>
 
           {/* Fase 4 */}
           <div className="text-left md:text-right">
             <h3 className="text-lg font-bold mb-2">
-              <span className="mr-2">🚀</span>FASE 4: TRÁFICO CON IA
+              <span className="mr-2">🚀</span>PARTE 2: Una oferta irresistible
             </h3>
             <p className="text-gray-600 text-sm md:text-base">
-              Aquí es donde la magia sucede. Con agentes de IA entrenados,
-              crearás productos digitales completos: ebooks, cursos,
-              audiolibros, templates. Sin ser experto. Sin conocimiento técnico.
-              Sin aparecer en cámaras.
+              Crearás una oferta tan buena que tus clientes no podrán dejarla pasar.
             </p>
           </div>
         </div>
@@ -51,7 +45,7 @@ const Componente4 = () => {
           <img
             src={imagen}
             alt="Método OPET"
-            className="w-56 md:w-72 lg:w-80 rounded-xl shadow-lg mx-auto"
+            className="w-56 md:w-72 lg:w-80 rounded-xl  mx-auto"
           />
         </div>
 
@@ -60,37 +54,41 @@ const Componente4 = () => {
           {/* Fase 2 */}
           <div className="text-left">
             <h3 className="text-lg font-bold mb-2">
-              <span className="mr-2">🪄</span>FASE 2: PRODUCTO CON IA
+              <span className="mr-2">🪄</span>PARTE 3: Mentalidad inquebrantable
             </h3>
             <p className="text-gray-600 text-sm md:text-base">
-              Aquí es donde la magia sucede. Con agentes de IA entrenados,
-              crearás productos digitales completos: ebooks, cursos,
-              audiolibros, templates. Sin ser experto. Sin conocimiento técnico.
-              Sin aparecer en cámaras.
+              Contarás con reglas que casi nadie te comparte y que contribuyen a definir tu éxito o fracaso.
             </p>
           </div>
 
           {/* Fase 3 */}
           <div className="text-left">
             <h3 className="text-lg font-bold mb-2">
-              <span className="mr-2">💎</span>FASE 3: EMBUDO DE VENTA
+              <span className="mr-2">💎</span>PARTE 4: Embudo de ventas
             </h3>
             <p className="text-gray-600 text-sm md:text-base">
-              Tu producto necesita una “máquina de vender”. Te muestro cómo
-              crear páginas de venta, checkout optimizado, y productos
-              complementarios que convierten visitantes en compradores.
+              Entenderás con facilidad cómo captar clientes para tu producto.
             </p>
           </div>
         </div>
       </div>
 
       {/* Resultado final */}
-      <p className="mt-12 text-gray-700 font-medium text-base md:text-lg">
+      {/* <p className="mt-12 text-gray-700 font-medium text-base md:text-lg">
         El resultado:{" "}
         <span className="text-green-500 font-semibold">
           En 48 horas pasas de la idea al producto vendiendo.
         </span>
-      </p>
+      </p> */}
+
+      <div className="text-center mt-10">
+            <h3 className="text-lg font-bold mb-2">
+              <span className="mr-2">📈</span>PARTE 5: Tráfico pago
+            </h3>
+            <p className="text-gray-600 text-sm md:text-base">
+              Potenciarás e incrementarás tu audiencia de la forma más conveniente.
+            </p>
+          </div>
     </section>
   );
 };

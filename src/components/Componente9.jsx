@@ -1,8 +1,8 @@
 // src/components/Recibes.js
 import React from "react";
 import { CheckCircle } from "lucide-react";
-import img1 from "../assets/workshop.webp";
-import img2 from "../assets/celu.webp";
+import img1 from "../assets/workshop2.avif";
+import img2 from "../assets/whatsapp3.avif";
 
 
 export default function Componente9() {
@@ -12,22 +12,21 @@ export default function Componente9() {
       oldPrice: "$497",
       image: img1,
       points: [
-        "16 horas de contenido intensivo en 2 días",
-        "Método O.P.E.T. paso a paso",
-        "Creás tu producto durante las clases",
+        "Sistema paso a paso AZU",
+        "Creas tu producto",
+        "Empiezas a cambiar patrones mentales",
         "Acompañamiento en tiempo real",
       ],
     },
     {
-      title: "PACK DE AGENTES IA LISTOS",
+      title: "ACOMPAÑAMIENTO PRÁCTICO",
       oldPrice: "$297",
       image: img2,
       points: [
-        "Agente de espionaje de ofertas",
-        "Agente creador de ofertas irresistibles",
-        "Agente creador de productos digitales",
-        "Agente creador de páginas de ventas",
-        "Agente de creativos publicitarios y mucho +",
+        "Resolución de casos en vivo",
+        "Consultas dinámicas en grupo",
+        "Grupo de Whatsapp para envío de materiales",
+        "Soporte y escucha activa",
       ],
     },
   ];
@@ -35,7 +34,7 @@ export default function Componente9() {
   return (
     <section className="bg-gray-50 py-12 px-6 md:px-12 rounded-2xl">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-center text-2xl md:text-3xl font-bold text-gray-900 mb-10 uppercase">
+        <h2 className="text-center text-2xl md:text-2xl font-bold text-gray-900 mb-10 uppercase">
           Esto es exactamente lo que recibes:
         </h2>
 
